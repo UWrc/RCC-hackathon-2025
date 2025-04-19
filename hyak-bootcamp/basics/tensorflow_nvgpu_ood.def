@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/tensorflow:24.07-tf2-py3
+
+%post
+	# Recommended for use with OOD
+	mkdir /scr /mmfs1
+	ln --symbolic /mmfs1/sw /sw
+	ln --symbolic /mmfs1/data /data
+	ln --symbolic /mmfs1/gscratch /gscratch	

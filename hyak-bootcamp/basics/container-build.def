@@ -1,0 +1,10 @@
+Bootstrap: localimage
+From: ubuntu.sif
+
+%post
+        apt -y update
+        apt -y install curl
+        apt -y install git
+%runscript
+        curl --version
+        git --version
