@@ -14,7 +14,7 @@ Build an interactive, website-based particle structure renderer that visualizes 
 ## Resources
 
 * Backend simulation: 
-  * [HOOMD-blue](#https://hoomd-blue.readthedocs.io/en/v5.1.1/): A molecular dynamics simulation package that has a python API and simulates a broad variety of particle structures with a high customizability
+  * [HOOMD-blue](https://hoomd-blue.readthedocs.io/en/v5.1.1/): A molecular dynamics simulation package that has a python API and simulates a broad variety of particle structures with a high customizability
   * [Freud](#https://freud.readthedocs.io/en/latest/): A python package with functions to calculate various metrics of a particle structure, like radial distribution function, order parameters, etc
   * [LAMMPS](#https://docs.lammps.org/Manual.html): A molecular dynamics simulation package available in C/C++/python/fortran
   * Mutual polarization method (MPM): A rapid solver in MATLAB that computes particle dipoles in parallel with CPU
