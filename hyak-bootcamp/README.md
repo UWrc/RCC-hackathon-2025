@@ -17,3 +17,28 @@ If you are a beginner with Hyak, I will be leading the fundamental Hyak on-board
 6. [**Advanced Slurm**](https://hyak.uw.edu/docs/hyak101/basics/syllabus_advanced) - IF TIME ALLOWS - this tutorial provides a worked example demonstrating the use of scripting with the Job Scheduler, Slurm, to execute a program from a software container.
 
 Almost all of the above are available as video tutorials. [**Check out our Research Computing Training Playlist on UW-IT's YouTube channel.**](https://youtube.com/playlist?list=PL-uLiqrTav1omqc7omKsLzRg2ng3nKCtj&si=ACwxjc0PV67AQfxm)
+
+### Materials
+
+If you are a member of the public, we've made the materials available to you here (except the containers that are too large to share). 
+
+basics/
+├── data/
+│   ├── animals.csv
+│   ├── potr_genotypes.txt
+│   ├── potr_genotypes1000.txt
+│   ├── potr_m_pred0.txt
+│   ├── potr_m_pred1.txt
+│   ├── potr_m_pred2.txt
+│   ├── potr_m_pred3.txt
+│   └── potr_m_pred4.txt
+├── container-build.def
+├── locator_NN_array.slurm
+├── locator_NN_dropouts.slurm
+├── locator_NN_job.slurm
+├── loop_array.slurm
+├── loop_job.slurm
+├── loop_script.sh
+├── pi.py
+├── tensorflow_nvgpu_ood.def
+└──tf_tutorial.py
